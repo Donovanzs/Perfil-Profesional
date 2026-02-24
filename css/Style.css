@@ -1,0 +1,138 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+scroll-behavior: smooth;
+}
+
+
+header {
+background: #111;
+padding: 15px 50px;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+color: #00c6ff;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+transition: 0.3s;
+}
+
+nav ul li a:hover {
+color: #00c6ff;
+}
+
+
+.hero {
+height: 100vh;
+background: linear-gradient(135deg, #0e4858, #0076ff);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+padding-top: 80px;
+}
+
+.hero img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.hero button {
+    padding: 10px 20px;
+    background:rgb(0, 0, 0);
+    color: #0072ff;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top:15px;
+
+}
+.section{ 
+    padding:80px 50px;
+    text-align: center;
+    background-color: #1A1A1A;
+    color:#0072ff;
+    
+}
+.dark{
+    background:#1A1A1A;
+}
+.skills {
+    max-width: 600px;
+    margin: auto;
+}
+.skill {
+    margin: 20px 0;
+}
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress{
+    height: 10px;
+    border-radius: 10px;
+}
+.jugar { width: 90%; background: #ff4d4d;}
+.dormir { width: 65%; background: #4da6ff;}
+
+.cards {
+  display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+.card{
+background: white;
+padding: 20px;
+width: 250px;
+margin:20px auto;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+
+
+}
+
+footer {
+background: #111;
+color: white;
+text-align: center;
+padding: 20px;
+}
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
